@@ -1,0 +1,14 @@
+I would guess that the Big O Notation for binary search is O(logn) because it is almost
+linear but I know that it is more than one instruction so that's why I choose the next best.
+
+For linear search I would guess that it is O(n) because it is directly dependent on the
+size of the array and slower than binary (after the sort time is averaged out).
+
+I did 1000 iterations because the time it takes to sort for binary is on average longer
+than the time it takes to linear search. STL Sort: O(nlogn) vs. Linear Search: O(n)
+5 iterations still showed linear to be faster,but I knew over many iterations binary
+should overtake it. This proved true, especially for 1000 iterations over a 1 billion
+sized array.
+
+Since the fingerprint file will be used by multiple agencies with thousands of agents,
+it's safe to say that binary search is the best implementation.
